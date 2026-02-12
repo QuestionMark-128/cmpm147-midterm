@@ -1,18 +1,26 @@
 HOW TO USE THE GENERATOR
 --------------------------------------
 Press play to generate a dungeon.
+There are two outputs, one in the game and one in inspector.
+The output in the game is the visual representation of the dungeon while the output in the inspector is giving the information of each room of the dungeon.
+
+LIMITATIONS
+ - If your grid is too small, the dungeon will not generate
+ - If min rooms is >10 and branching is 0.1-0.3, the dungeon will either take a very long time to load or won't load at all
+ - looping is extrememly buggy and sometimes doesn't even listen to the parameters the user gives.
+ - Loops can only be 2x2 groups of rooms and cannot create long loops like other dungeon can.
 
 In unity click the dungeongenerator in Hierarchy to edit settings.
 I added a basic cell prefab to create the dungeon. You can replace it with your own prefab if you want.
 
-GENERATED DUNGEOPN DATA
+GENERATED DUNGEON DATA
 This gives data on every room that is generated:
--Index
--X Position
--Y position
--Room Type
--Neighbors
-  -up, down, left, right
+ - Index
+ - X Position
+ - Y position
+ - Room Type
+ - Neighbors
+   - up, down, left, right
 
 DUNGEON GRID
 Cell W and Cell H is the spacing between the cells with W being the sides and H being the top and bottom. This is just visuals.
