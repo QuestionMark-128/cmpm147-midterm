@@ -6,7 +6,7 @@ The output in the game is the visual representation of the dungeon while the out
 
 LIMITATIONS
  - If your grid is too small, the dungeon will not generate
- - If min rooms is >10 and branching is 0.1-0.3, the dungeon will either take a very long time to load or won't load at all
+ - If min rooms is >10 and branching is 0.1-0.3, the dungeon will either take a very long time to load or won't load at all. A good min and max room number is 7 and 15.
  - looping is extrememly buggy and sometimes doesn't even listen to the parameters the user gives.
  - Loops can only be 2x2 groups of rooms and cannot create long loops like other dungeon can.
 
