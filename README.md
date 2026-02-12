@@ -1,6 +1,6 @@
 HOW TO USE THE GENERATOR
 --------------------------------------
-Press play to generate a dungeon.
+Press play to generate a dungeon layout.
 There are two outputs, one in the game and one in inspector.
 The output in the game is the visual representation of the dungeon while the output in the inspector is giving the information of each room of the dungeon.
 
